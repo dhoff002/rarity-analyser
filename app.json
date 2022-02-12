@@ -1,7 +1,7 @@
 {
     "name": "DeadBits Rarity",
     "description": "DeadBits is a collection of unique NFTs that live on the Velas blockchain | deadbitsnfts.com | DeadBits rarity score calculation and trait type matrix",
-    "repository": "https://github.com/fukuball/rarity-analyser",
+    "repository": "https://github.com/dhoff002/rarity-analyser",
     "logo": "https://www.deadbitsnfts.com/static/media/logo_v.02c0304e.png",
     "keywords": ["NFT", "ERC721", "rarity", "DeadBits"]
   }
