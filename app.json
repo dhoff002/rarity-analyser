@@ -1,7 +1,7 @@
 {
-    "name": "Cool Rarity",
-    "description": "Cool Rarity is an open source package for easy rarity score calculation with ERC721 NFT metadata collection.",
+    "name": "DeadBits Rarity",
+    "description": "DeadBits is a collection of unique NFTs that live on the Velas blockchain | deadbitsnfts.com | DeadBits rarity score calculation and trait type matrix",
     "repository": "https://github.com/fukuball/rarity-analyser",
-    "logo": "https://onedaypunk-rarity-tool.herokuapp.com/images/profile.png",
-    "keywords": ["NFT", "ERC721", "rarity", "PunkScape", "OneDayPunk"]
+    "logo": "https://www.deadbitsnfts.com/static/media/logo_v.02c0304e.png",
+    "keywords": ["NFT", "ERC721", "rarity", "DeadBits"]
   }
