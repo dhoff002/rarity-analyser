@@ -82,30 +82,32 @@ body {
  * Header
  */
 
-.nav-masthead .nav-link {
+ .nav-masthead .nav-link {
   padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   border-bottom: .25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  color: var(--primary);
+  transition: transform 1s; /* Animation */
+  transform: scale(1.05); /* (105% zoom - Note: if the zoom is too large, it will go outside of the viewport) */;
 }
+
 
 .nav-masthead .nav-link + .nav-link {
   margin-left: 1rem;
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: var(--primary)
 }
 
 /*
- * One Day Punks
+ * DeadBits
  */
 
 .brand, .brand:hover {
@@ -275,7 +277,7 @@ body {
 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='grey'/%3e%3c/svg%3e");
 }
 .form-switch .form-check-input:focus {
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='pink'/%3e%3c/svg%3e");
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='grey'/%3e%3c/svg%3e");
 }
 
 
