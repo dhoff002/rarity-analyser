@@ -463,6 +463,14 @@ a:hover .punk-info svg:not(.shadow) {
   left: -2px;
 }
 
+.view-on-icon3 {
+  width: 500px;
+  height: px;
+  position: relative;
+  top: -1px;
+  left: -2px;
+}
+
 
 .view-on-link, .view-on-link:hover {
   color: var(--white);
