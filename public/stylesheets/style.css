@@ -16,9 +16,9 @@
   --white: #FFFFFF;
   --gray: var(--gray-400);
   --black: #000000;
-  --primary: #FF04B4;
+  --primary: #9f9c6d;
   --primary-dark: #1D1B28;
-  --contrast: #0062F9;
+  --contrast: #5A727D;
   --danger: #EF4444;
   --red: #F87171;
   --semi-white: rgba(255, 255, 255, 0.2);
@@ -186,7 +186,7 @@ body {
   color: var(--white);
   background-color: var(--black);
   appearance: none;
-  border-radius: var(--size-5);
+  border-radius: 0;
   border: var(--border);
   padding: var(--size-3) var(--size-4);
   transition: border-color var(--speed);
@@ -244,17 +244,39 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: var(--size-5);
+  border-radius: 0;
 }
 
 .trait-fileter-btn {
   width: 100%;
   max-width: 20rem;
+  background-color:  var(--contrast) !important;
+  border-color: #9F9C6D !important;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: var(--size-5);  
+  border-radius: 0;
 }
+
+.trait-fileter-btn:hover, trait-fileter-btn:focus, trait-fileter-btn:active, trait-fileter-btn.dropdown-toggle.btn-default{
+ 
+  background-color: #2F3E48 !important;
+  color:#FFF;
+  border-color: #31347B !important;
+  }
+
+.form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--contrast);
+}
+
+.form-switch .form-check-input {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='grey'/%3e%3c/svg%3e");
+}
+.form-switch .form-check-input:focus {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='pink'/%3e%3c/svg%3e");
+}
+
 
 .trait-fileter-offcanvas {
   background-color: var(--primary-dark); 
@@ -266,12 +288,14 @@ body {
   background-color: #000;
   border-radius: 100%;
   max-height: 280px;
+  box-shadow: 11px 11px 17px #5A727D, -11px -11px 17px #9F9C6D;
 }
 
 .punk-info {
   position: relative;
   font-family: var(--font-family-title);
   font-weight: 700;
+  margin-top: .325rem;
 }
 
 .punk-info svg {
@@ -340,12 +364,17 @@ a:hover .punk-info svg:not(.shadow) {
   color: #fff;
 }
 
-.page-link:hover, .page-link:focus {
+.page-link:hover, .page-link:focus{
   background-color: var(--primary);
   color: #fff;
 }
 
-.page-item.disabled .page-link {
+.page-item.active .page-link {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+}
+
+.page-item.disabled .page-link{
   background-color: #000;
   border: 0;
   color: #fff;
@@ -442,7 +471,7 @@ a:hover .punk-info svg:not(.shadow) {
 
 .tile {
   width: 135px;
-  background-color: var(--primary-dark); 
+  background-color: #253140;
   border-radius: 10px;
   color: var(--white);
   font-size: var(--font-size-lg);
